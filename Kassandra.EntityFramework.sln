@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EAB1EA5E-EDE0-4D65-BEC3-0910C7EF3583}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1C73CCCE-968A-417B-A9F2-7EA35D853567}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Kassandra.EntityFramework", "src\Kassandra.EntityFramework\Kassandra.EntityFramework.xproj", "{7E8D3330-CD25-4827-8C7C-9CC28544087A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E8D3330-CD25-4827-8C7C-9CC28544087A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E8D3330-CD25-4827-8C7C-9CC28544087A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E8D3330-CD25-4827-8C7C-9CC28544087A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E8D3330-CD25-4827-8C7C-9CC28544087A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E8D3330-CD25-4827-8C7C-9CC28544087A} = {EAB1EA5E-EDE0-4D65-BEC3-0910C7EF3583}
+	EndGlobalSection
+EndGlobal
